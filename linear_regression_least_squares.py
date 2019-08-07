@@ -1,3 +1,7 @@
+# Import libraries
+import linear_space_list # coded from scratch
+import matplotlib.pyplot as plt # library for visualisation
+
 def linear_regression_least_squares(x_points, y_points):
     sum_x          = sum(x_points) # sum of all x points
     sum_x_squared  = sum([x**2 for x in x_points]) # sum of all x points squared
