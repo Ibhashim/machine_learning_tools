@@ -1,5 +1,5 @@
 # Import libraries
-import linear_space_list # coded from scratch
+import linear_space_list # part of this project repository
 import matplotlib.pyplot as plt # library for visualisation
 
 def linear_regression_least_squares(x_points, y_points):
